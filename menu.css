@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  /*font-family: "Nunito Sans", sans-serif;*/
+  /*border: 1px solid rgb(182, 9, 9);*/
+  background: rgb(31, 30, 30);
+  color: #cacaca;
+}
+.header img {
+  height: 70px;
+  width: 70px;
+}
+.logo {
+  display: block;
+  text-align: center;
+}
+.header h1 {
+  letter-spacing: 0.2em;
+  text-align: center;
+  padding: 1em 0 1em;
+}
+.body {
+  font-size: 5em;
+  text-align: center;
+  margin-top: 8vh;
+  color: rgb(128, 115, 115);
+}
+.body img {
+  height: 3em;
+}
+.nav-tabs {
+  overflow: hidden;
+  background-color: rgb(31, 30, 30);
+  padding: 0em;
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs button {
+  background-color: inherit;
+  float: left;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  /*padding: 14px 16px;*/
+  padding: 0.7em 2em;
+  transition: 0.3s;
+}
+.nav-tabs button:hover {
+  background-color: rgb(44, 43, 43);
+  cursor: pointer;
+}
+.nav-tabs button.active {
+  background-color: rgb(44, 43, 43);
+}
+.tabcontent {
+  display: none;
+  padding: 4em 1em 1em;
+}
+.lunch, .dinner, .pizza, .wine, .sandwiches {
+  display: grid;
+  padding: 1em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5em;
+  justify-items: center;
+}
+.menu-card {
+  height: 15em;
+  width: 20em;
+  justify-items: center;
+  text-align: center;
+}
