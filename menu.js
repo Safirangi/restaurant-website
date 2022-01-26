@@ -20,7 +20,7 @@ function openMenu(evt, menuName) {
   evt.currentTarget.className += " active";
 }
 
-//Function to hide the watermark logo
+//Function to hide the watermark logo, disappears on clicking any tab-links
 function disappear() {
   document.getElementById("disappear").style.display = "none";
 }
