@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
   /*font-family: "Nunito Sans", sans-serif;*/
   /*border: 1px solid rgb(182, 9, 9);*/
 }
