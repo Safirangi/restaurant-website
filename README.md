@@ -1,4 +1,4 @@
 # restaurant-website
 'The Horizon' Restaurant Website
 
-View this project on CodePen.io : [Restaurant Website](https://codepen.io/safirangi/full/Yzrbgxp)
+View this project, hosted by GitHub Pages : [The Horizon](https://safirangi.github.io/restaurant-website/)
