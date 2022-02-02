@@ -4,20 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!--Title-->
     <title>Menu | The Horizon</title>
+    
+    <!--Stylesheet-->
     <link href="menu.css" rel="stylesheet" />
+    
+    <!--JavaScript Doc-->
     <script src="menu.js"></script>
-    <link rel="icon" href="/photo/logo.png" type="image/x-icon" />
+    
+    <!--Favicon-->
+    <link rel="icon" href="photo/logo.png" type="image/x-icon" />
   </head>
 
   <body>
     <section class="header">
+      
+      <!--Logo-->
       <div class="logo">
-        <a href="index.html"><img src="/photo/logo.png" alt="Logo" /></a>
+        <a href="index.html"><img src="photo/logo.png" alt="Logo" /></a>
       </div>
+      <!--Logo-->
+      
       <h1>MENU</h1>
     </section>
 
+    <!--Navigation Tabs-->
     <section class="nav-tabs">
       <button class="tablinks" onclick="openMenu(event, 'Lunch'), disappear()">Lunch</button>
       <button class="tablinks" onclick="openMenu(event, 'Dinner'), disappear()">Dinner</button>
@@ -26,11 +39,13 @@
       <button class="tablinks" onclick="openMenu(event, 'Sandwiches'), disappear()">Sandwiches</button>
     </section>
 
+    <!--Logo Body Image-->
     <div class="body" id="disappear" onclick="disappear()">
       <p>Choose a meal</p>
       <img src="photo/logo.png" alt="logo" />
     </div>
 
+    <!--Lunch Menu-->
     <div id="Lunch" class="tabcontent">
       <div class="lunch">
         <div class="menu-card">
@@ -96,7 +111,9 @@
         </div>
       </div>
     </div>
-
+<!--Lunch Menu-->
+    
+<!--Dinner Menu-->
     <div id="Dinner" class="tabcontent">
       <div class="dinner">
         <div class="menu-card">
@@ -157,7 +174,9 @@
         </div>
       </div>
     </div>
-
+<!--Dinner Menu-->
+    
+<!--Pizza Menu-->
     <div id="Pizza" class="tabcontent">
       <div class="pizza">
         <div class="menu-card">
@@ -224,7 +243,9 @@
         </div>
       </div>
     </div>
-
+<!--Pizza Menu-->
+    
+<!--Wine Menu-->
     <div id="Wine" class="tabcontent">
       <div class="wine">
         <div class="menu-card">
@@ -291,7 +312,9 @@
         </div>
       </div>
     </div>
-
+<!--Wine Menu-->
+    
+<!--Sandwich Menu-->
     <div id="Sandwiches" class="tabcontent">
       <div class="sandwiches">
         <div class="menu-card">
@@ -360,10 +383,12 @@
         </div>
       </div>
     </div>
+<!--Sandwich Menu-->
     
+<!--Footer-->
     <footer>
       <p>safirangi © 2022</p>
     </footer>
-    
+<!--Footer--> 
   </body>
 </html>
