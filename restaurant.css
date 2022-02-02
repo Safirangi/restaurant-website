@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
+/*Base Style*/
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,9 @@
 body {
   background: rgb(30, 30, 30);
 }
+/*Base Style*/
+
+/*Navbar*/
 nav {
   display: flex;
   justify-content: flex-end;
@@ -37,6 +41,9 @@ nav li a:hover {
   text-decoration: none;
   background: #161a1d;
 }
+/*Navbar*/
+
+/*Navbar Responsiveness*/
 @media (max-width: 320px) {
   * {
     box-sizing: border-box;
@@ -63,7 +70,9 @@ nav li a:hover {
     font-size: 1em;
   }
 }
+/*Navbar Responsiveness*/
 
+/*Header*/
 header {
   background: url("photo/restaurant.jpg");
   background-attachment: fixed;
@@ -111,10 +120,13 @@ header a:hover {
   background: #161a1d;
 }
 header img {
-  height: 50px;
-  width: 50px;
+  height: 4em;
+  width: 4em;
   padding: 2em 0 0;
 }
+/*Header*/
+
+/*Header Responsiveness*/
 @media (max-width: 320px) {
   header h1 {
     font-size: 3em;
@@ -151,7 +163,9 @@ header img {
     border-radius: 0.2em;
   }
 }
+/*Header Responsiveness*/
 
+/*Contact Section*/
 .contact {
   padding: 2em 0 0;
   text-align: center;
@@ -161,6 +175,9 @@ header img {
   padding: 1em;
   font-size: 1em;
 }
+/*Contact Section*/
+
+/*Location Grid*/
 .location h1 {
   text-align: center;
   padding: 2em;
@@ -196,6 +213,9 @@ a {
   width: 100%;
   height: 14em;
 }
+/*Location Grid*/
+
+/*Location Grid Responsiveness*/
 @media (max-width: 320px) {
   .grid {
     display: grid;
@@ -230,6 +250,7 @@ a {
   }
 }
 
+/*Footer*/
 footer {
   height: 5em;
   width: 100%;
@@ -242,6 +263,9 @@ footer {
   color: #cacaca;
   font-size: 0.8em;
 }
+/*Footer*/
+
+/*Responsive for 375px screen width*/
 @media (max-width: 375px) {
   * {
     box-sizing: border-box;
@@ -333,6 +357,9 @@ footer {
     bottom: 0;
   }
 }
+/*Responsive for 375px screen width*/
+
+/*Responsive for 425px screen*/
 @media (max-width: 425px) {
   * {
     box-sizing: border-box;
