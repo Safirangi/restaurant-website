@@ -65,7 +65,7 @@ nav li a:hover {
 }
 
 header {
-  background: url("/photo/restaurant.jpg");
+  background: url("photo/restaurant.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
